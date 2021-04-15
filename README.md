@@ -19,7 +19,7 @@
 1. Запускаем контейнеры PostgreSQL и Node c помощью команды 
 ``` docker-compose up -d --force-recreate --build ```.
 1. Проверяем, что контейнеры запустились командой ``` docker-compose ps ```.
-1. Проверить командой ``` docker-compose logs -f postgres (docker-compose logs -f node-app) ``` готовность MySql (Node).
+1. Проверить командой ``` docker-compose logs -f postgres (docker-compose logs -f node-app) ``` готовность PostgreSQL (Node).
 1. Запускаем приложение командой ``` java -jar artifacts/aqa-shop.jar ```.
 1. Запускаем тесты командой 
 ``` gradlew clean test allureReport ```.
