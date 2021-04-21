@@ -17,7 +17,7 @@
 * Открыть его с помощью JetBrains IntelliJ IDEA 
 * Запускаем контейнеры PostgreSQL и Node c помощью команды docker-compose up -d --force-recreate.
 * Проверяем, что контейнеры запустились командой docker-compose ps.
-* Запускаем приложение и передаем данные для подключения базы PostgreSQL командой java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -Dspring.datasource.username=user -Dspring.datasource.password=pass -Durl="jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
+* Запускаем приложение и передаем данные для подключения базы PostgreSQL командой java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/appps -Dspring.datasource.username=userps -Dspring.datasource.password=passps -jar artifacts/aqa-shop.jar
 * Запускаем тесты командой gradlew clean test -Durl="jdbc:postgresql://localhost:5432/appps" -Duser="userps" -Dpassword="passps" --info
 * Формируем отчет командой gradlew allureServe.
 * Оцениваем результаты тестирования.
