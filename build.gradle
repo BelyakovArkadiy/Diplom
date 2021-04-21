@@ -41,5 +41,8 @@ test {
     useJUnitPlatform()
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
     systemProperty 'url', System.getProperty('url')
+    systemProperty 'user', System.getProperty('user')
+    systemProperty 'password', System.getProperty('password')
+
 
 }
