@@ -68,7 +68,7 @@ public class DataHelper {
     }
 
     public static String getInvalidOwner() {
-        return "Петр(. 123";
+        return "Хулио#12345";
     }
 
     public static String getEmptyOwner() {
@@ -80,7 +80,7 @@ public class DataHelper {
     }
 
     public static String getInvalidCvs() {
-        return "12";
+        return "13";
     }
 
     public static String getEmptyCvs() {
