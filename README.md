@@ -7,7 +7,7 @@
 * Проверяем, что контейнеры запустились командой docker-compose ps.
 * Запускаем приложение и передаем данные для подключения базы MySql командой java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -Dspring.datasource.username=user -Dspring.datasource.password=pass -Durl="jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
 * Запускаем тесты командой gradlew clean test -Durl="jdbc:mysql://localhost:3306/app" -Duser="user" -Dpassword="pass" --info
-* Формируем отчет командой gradlew allureServe.
+* Формируем отчет командой gradlew allureServe(возможно первый раз нужно будет сначала выполнить команду gradlew allureReport, для формирования нужных кактологов)
 * Оцениваем результаты тестирования.
 
 
@@ -19,5 +19,5 @@
 * Проверяем, что контейнеры запустились командой docker-compose ps.
 * Запускаем приложение и передаем данные для подключения базы PostgreSQL командой java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/appps -Dspring.datasource.username=userps -Dspring.datasource.password=passps -jar artifacts/aqa-shop.jar
 * Запускаем тесты командой gradlew clean test -Durl="jdbc:postgresql://localhost:5432/appps" -Duser="userps" -Dpassword="passps" --info
-* Формируем отчет командой gradlew allureServe.
+* Формируем отчет командой gradlew allureServe(возможно первый раз нужно будет сначала выполнить команду gradlew allureReport, для формирования нужных кактологов).
 * Оцениваем результаты тестирования.
