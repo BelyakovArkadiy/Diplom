@@ -9,15 +9,13 @@
 На тестирование затрачено - 15 часов
 
 ### Описание процесса тестирования
-Было произведено тестирование сервиса покупки путешествия, при помощи дебетовой карты и при помощи покупки в кредит, а так же протестировано взаимодействие сервиса с СУБД и API банка. 
-Всего было:
+ Было произведено тестирование сервиса покупки путешествия, при помощи дебетовой карты и при помощи покупки в кредит, а так же протестировано взаимодействие сервиса с СУБД и API банка. 
 
-26 авто тестов (UI тесты и запросы проверяющие информацию в БД)
-20 успешных тестов (76%) / 6 падающих тестов (24%)
+Всего было 26 авто тестов (UI тесты и запросы проверяющие информацию в БД). 20 успешных тестов (76%) / 6 падающих тестов (24%)
+
 В результате тестирования были выявлены и заведены следующие баги (issues):
-
 * [Bag1](https://github.com/BelyakovArkadiy/Diplom/issues/1)
-* [Bag2](https://github.com/BelyakovArkadiy/Diplom/issues/2)
+* [Bag2](https://github.com/BelyakovArkadiy/Diplom/issues/2) 
 * [Bag3](https://github.com/BelyakovArkadiy/Diplom/issues/3)
 * [Bag4](https://github.com/BelyakovArkadiy/Diplom/issues/4)
 * [Bag5](https://github.com/BelyakovArkadiy/Diplom/issues/5)
@@ -29,20 +27,21 @@
 
 ### В процессе тестирования использовались следующие артефакты:
 
-JetBrains IntelliJ IDEA
-Java, версия 11
-Gradle
-JUnit5
-Selenide
-MySQL
-PostgreSQL
-Docker
-Allure
-Lombok
-Faker
-В качестве тестовых данных использовались данные: [Дипломный проект профессии "Тестировщик"](https://github.com/netology-code/qa-diploma)
+* JetBrains IntelliJ IDEA
+* Java, версия 11
+* Gradle
+* JUnit5
+* Selenide
+* MySQL
+* PostgreSQL
+* Docker
+* Allure
+* Lombok
+* Faker
+
+ В качестве тестовых данных-[Дипломное задание профессии «Тестировщик ПО»](https://github.com/netology-code/qa-diploma)
 
 ### Тестирование производилось в следующем окружении:
 
-OC Windows 10 Pro
-Java version 11
+* OC Windows 10 Pro
+* Java version 11
