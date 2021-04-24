@@ -1,4 +1,6 @@
-[План тестирования](https://github.com/BelyakovArkadiy/Diplom-draft/blob/master/reports/Plan.md)
+* [Plan](https://github.com/BelyakovArkadiy/Diplom-draft/blob/master/reports/Plan.md)
+* [Report](https://github.com/BelyakovArkadiy/Diplom/blob/master/reports/Report.md)
+* [Summary](https://github.com/BelyakovArkadiy/Diplom/blob/master/reports/Summary.md)
 
 ## Процедура запуска тестов сервиса покупки путешествий для MySql
 * Клонировать [репозиторий](https://github.com/BelyakovArkadiy/Diplom-draft) на свой компьютер.
