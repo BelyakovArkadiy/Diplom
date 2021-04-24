@@ -16,11 +16,11 @@
 20 успешных тестов (76%) / 6 падающих тестов (24%)
 В результате тестирования были выявлены и заведены следующие баги (issues):
 
-[Bag1](https://github.com/BelyakovArkadiy/Diplom/issues/1)
-[Bag2](https://github.com/BelyakovArkadiy/Diplom/issues/2)
-[Bag3](https://github.com/BelyakovArkadiy/Diplom/issues/3)
-[Bag4](https://github.com/BelyakovArkadiy/Diplom/issues/4)
-[Bag5](https://github.com/BelyakovArkadiy/Diplom/issues/5)
+* [Bag1](https://github.com/BelyakovArkadiy/Diplom/issues/1)
+* [Bag2](https://github.com/BelyakovArkadiy/Diplom/issues/2)
+* [Bag3](https://github.com/BelyakovArkadiy/Diplom/issues/3)
+* [Bag4](https://github.com/BelyakovArkadiy/Diplom/issues/4)
+* [Bag5](https://github.com/BelyakovArkadiy/Diplom/issues/5)
 
 ### Вывод и рекомендации:
 По результатам тестирования было выявлено 5 багов, как для обычной покупки, так и для покупки в кредит. Большинство дефектов являются критичными,так как влияют на бизнес. Покупка с помощью невалидных данных(карт) является большим риском для бизнеса. Несет убытки и удар по репутации.
