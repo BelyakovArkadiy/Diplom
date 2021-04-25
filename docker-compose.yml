@@ -17,7 +17,7 @@ services:
     image: postgres:12-alpine
     ports:
       - '5432:5432'
-   volumes:
+    volumes:
       - ./data:/varpostgres/lib/postgres/data
     environment:
       - POSTGRES_DB=appps
